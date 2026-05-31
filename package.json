@@ -1,0 +1,14 @@
+{
+  "name": "telegram-game-bot",
+  "version": "1.0.0",
+  "description": "Bot de juego para Telegram desplegado en Railway",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
